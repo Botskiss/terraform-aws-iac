@@ -39,6 +39,9 @@ Group your tech stack logically to show you understand system architecture.
 *   **Why MongoDB?** Chosen for its flexible document schema, which accommodated the evolving data structures of user-generated project cards.
 *   **Why Tailwind CSS?** Allowed for rapid, consistent styling without breaking out of the component-driven workflow.
 
+### Architectural Diagram
+![Architectural Diagram](Architectural Diagram.jpg)
+
 ---
 
 ## 🧠 Lessons Learned & Technical Challenges
