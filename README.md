@@ -30,7 +30,7 @@ To solve this, they decide to adopt Infrastructure as Code (IaC) using Terraform
 
 ## ✨ Architectural Diagram
 
-![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/Architectural_Diagram.png)
+![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/twl-aws-iac-diagram.png)
 
 ---
 ## Our Solution
