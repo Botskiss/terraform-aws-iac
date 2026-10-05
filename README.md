@@ -48,12 +48,18 @@ The focus of this project is on Kubernetes fundamentals, not production optimiza
 
 ---
 ## Final Result
-At the end of the project, we will have:  
-* AWS infrastructure created entirely using Terraform.  
-* Remote state management with locking.  
-* Modular, reusable Terraform code with a strong foundation for managing real-world cloud infrastructure.
+At the end of the project, I have:  
+* Built a complete AWS environment without using the AWS Console
+* Stored Terraform state securely using S3 and DynamoDB
+* Organized infrastructure using reusable modules
+* Deployed a working web application
+* Cleaned up everything safely using Terraform
+  <br>
+  <br>
+This project reflects how real DevOps teams build, manage, and maintain cloud infrastructure at scale.
 
 <br> 
+<br>
 
 ![Final Result](https://github.com/Botskiss/terraform-aws-iac/blob/main/terraform-aws-iac-final.png)
 
