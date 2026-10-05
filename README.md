@@ -50,9 +50,17 @@ The solution includes:
 * Refactored Terraform code using modules for reusability  
 * Safe change management using terraform plan and terraform apply
 <br>
-Instead of clicking in the AWS Console, Terraform becomes the single source of truth for infrastructure.  
----
+Instead of clicking in the AWS Console, Terraform becomes the single source of truth for infrastructure.
 
+--- 
+## Steps Performed 👩‍💻
+1. Understand and configure Terraform locally
+2. Configure a remote backend using S3 and DynamoDB
+3. Build AWS infrastructure incrementally using Terraform
+4. Review and apply changes safely using terraform plan
+5. Refactor infrastructure into Terraform modules
+
+---
 ## ✨ Architectural Diagram
 
 ![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/twl-aws-iac-diagram.png)
