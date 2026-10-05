@@ -33,9 +33,18 @@ To solve this, they decide to adopt Infrastructure as Code (IaC) using Terraform
 ![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/Architectural_Diagram.png)
 
 ---
+## Our Solution
+To will deploy a containerized backend service on Amazon EKS and let Kubernetes manage it.  
+<br>
+The solution includes:  
+* A Dockerized application stored in Amazon ECR
+* An Amazon EKS cluster with EC2 worker nodes
+* A Kubernetes Deployment to run and manage Pods
+* A Kubernetes Service (NodePort) to expose the application
+* Health endpoints to verify application status
+<br> 
+The focus of this project is on Kubernetes fundamentals, not production optimizations.
 
-
-*   **Your Name** - [GitHub](https://github.com) • [LinkedIn](https://linkedin.com) • [Portfolio Website](https://yourportfolio.com)
 
 ---
 ## Final Result
