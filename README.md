@@ -25,16 +25,22 @@ The engineering team wants a reliable, repeatable, and version-controlled way to
 
 To solve this, they decide to adopt Infrastructure as Code (IaC) using Terraform.
 
+---
+## Role as a DevOps Engineer
+My role is to design and build AWS infrastructure entirely using Terraform, following real-world DevOps best practices.  
+
+I am responsible for:  
+* Writing Terraform code to provision AWS resources  
+* Managing infrastructure state safely using a remote backend  
+* Building infrastructure incrementally instead of all at once  
+* Refactoring Terraform code into reusable modules  
+*  Understanding how Terraform tracks, plans, and applies changes  
+<br>
+This mirrors how DevOps engineers manage infrastructure in production teams.
 
 ---
-
-## ✨ Architectural Diagram
-
-![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/twl-aws-iac-diagram.png)
-
----
-## Our Solution
-To will deploy a containerized backend service on Amazon EKS and let Kubernetes manage it.  
+## Solution
+To deploy a containerized backend service on Amazon EKS and let Kubernetes manage it.  
 <br>
 The solution includes:  
 * A Dockerized application stored in Amazon ECR
@@ -44,6 +50,11 @@ The solution includes:
 * Health endpoints to verify application status
 <br> 
 The focus of this project is on Kubernetes fundamentals, not production optimizations.
+---
+
+## ✨ Architectural Diagram
+
+![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/twl-aws-iac-diagram.png)
 
 
 ---
