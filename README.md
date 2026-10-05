@@ -1,4 +1,4 @@
-# 🚀 Project Title {THIS IS NOT YET OFFICIAL)
+# 🚀 Infrastructure as Code (IaC) with Terraform for AWS Environments
 
 [![Build Status](https://shields.io)](#)
 [![License: MIT](https://shields.io)](https://opensource.org)
