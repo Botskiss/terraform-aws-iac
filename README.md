@@ -40,16 +40,17 @@ This mirrors how DevOps engineers manage infrastructure in production teams.
 
 ---
 ## Solution
-To deploy a containerized backend service on Amazon EKS and let Kubernetes manage it.  
+To use Terraform to provision and manage AWS infrastructure from scratch.
+
+The solution includes:
+
+* A Terraform project structured for real environments  
+* A remote backend using Amazon S3 and DynamoDB for state and locking  
+* Core AWS infrastructure built step by step  
+* Refactored Terraform code using modules for reusability  
+* Safe change management using terraform plan and terraform apply
 <br>
-The solution includes:  
-* A Dockerized application stored in Amazon ECR
-* An Amazon EKS cluster with EC2 worker nodes
-* A Kubernetes Deployment to run and manage Pods
-* A Kubernetes Service (NodePort) to expose the application
-* Health endpoints to verify application status
-<br> 
-The focus of this project is on Kubernetes fundamentals, not production optimizations.
+Instead of clicking in the AWS Console, Terraform becomes the single source of truth for infrastructure.  
 ---
 
 ## ✨ Architectural Diagram
