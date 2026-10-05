@@ -42,5 +42,9 @@ To solve this, they decide to adopt Infrastructure as Code (IaC) using Terraform
 At the end of the project, we will have:  
 * AWS infrastructure created entirely using Terraform.  
 * Remote state management with locking.  
-* Modular, reusable Terraform code with a strong foundation for managing real-world cloud infrastructure.  
+* Modular, reusable Terraform code with a strong foundation for managing real-world cloud infrastructure.
+
+<br> 
+
+![Final Result](https://github.com/Botskiss/terraform-aws-iac/blob/main/terraform-aws-iac-final.png)
 
